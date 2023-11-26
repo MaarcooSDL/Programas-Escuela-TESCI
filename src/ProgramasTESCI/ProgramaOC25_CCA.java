@@ -33,8 +33,8 @@ public class ProgramaOC25_CCA { //Inicio del programa
                 } //Fin del ciclo "if"
                 else{ //Inicio del "else" indica la parte contraria del "if"
                     resultado[i][j]=Math.pow(tabla[i][j],3); //Si la condicion no se cumple el resultado se eleva al "cubo"
-                    System.out.print("\t"+resultado[i][j]); //Impresion de la matriz ya con operaciones hechas
                 } //Fin del "else"
+                System.out.print("\t"+resultado[i][j]); //Impresion de la matriz ya con operaciones hechas
             } //Fin del ciclo "for" anidado
             System.out.println(); //El "println" hace los saltos de linea para la matriz
         } //Fin del primer ciclo "for"
